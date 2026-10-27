@@ -1,0 +1,51 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+
+# Bun
+bun-debug.log
+bun.lockb
+
+# Environment and secrets
+.env.*
+!.env.example
+!.env.sample
+
+# WhatsApp session and browser profiles
+.wwebjs_auth
+.wwebjs_cache
+.wwebjs_chrome
+.wwebjs_cache/
+.chrome/
+.chrome-data/
+
+# Puppeteer browser cache
+.cache/
+.puppeteer/
+
+# Git
+.git
+.gitignore
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+
+# Docker
+Dockerfile*
+compose*.yaml
+compose*.yml
+docker-compose*.yaml
+docker-compose*.yml
+.dockerignore
+
